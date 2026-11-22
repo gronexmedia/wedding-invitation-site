@@ -208,13 +208,13 @@ export function OpeningParallaxStage() {
         </div>
 
         {/* === LAYER 2: CARVED WOODEN TEMPLE DOORS === */}
-        <div className="pointer-events-none absolute inset-0 z-30 flex items-stretch justify-between">
+        <div className="pointer-events-none absolute inset-0 z-30 flex items-stretch">
           <motion.div
             initial={prefersReduced ? false : { x: '-45%', opacity: 0.75 }}
             animate={{ x: '0%', opacity: 1 }}
             transition={{ duration: 0.85, ease: [0.16, 1, 0.3, 1] }}
             style={prefersReduced ? {} : { x: leftDoorX }}
-            className="w-[48.5%] h-full overflow-hidden will-change-transform"
+            className="w-1/2 shrink-0 h-full overflow-hidden border-r border-[#2D0A03]/70 will-change-transform"
           >
             <img
               src="/assets/wedding/door-left.png"
@@ -230,7 +230,7 @@ export function OpeningParallaxStage() {
             animate={{ x: '0%', opacity: 1 }}
             transition={{ duration: 0.85, ease: [0.16, 1, 0.3, 1] }}
             style={prefersReduced ? {} : { x: rightDoorX }}
-            className="w-[48.5%] h-full overflow-hidden will-change-transform"
+            className="w-1/2 shrink-0 h-full overflow-hidden border-l border-[#2D0A03]/70 will-change-transform"
           >
             <img
               src="/assets/wedding/door-right.png"

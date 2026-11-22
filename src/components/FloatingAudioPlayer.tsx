@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Volume2, VolumeX } from "lucide-react";
 
-const AUDIO_SRC = "/assets/audio/wedding-audio.mp3";
+const AUDIO_SRC = "/assets/audio/wedding-audio.mpeg";
 
 const LOOP_START_SEC = 50;
 const LOOP_END_SEC = 80;
