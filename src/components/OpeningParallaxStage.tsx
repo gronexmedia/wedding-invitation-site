@@ -122,6 +122,20 @@ export function OpeningParallaxStage() {
                 className="w-[44%] max-w-[300px] h-auto object-contain"
               />
             </motion.div>
+
+                        {/* Thirumana Azhaipithal PNG below Vinayaga (same reveal-on-scroll as Ganesha) */}
+            <motion.div
+              style={prefersReduced ? {} : { y: ganeshaY, opacity: ganeshaOpacity }}
+              className="mt-1 sm:mt-1.5 flex items-center justify-center w-full px-4 will-change-transform"
+            >
+              <img
+                src="/assets/wedding/thirumana-azhaipithal.png"
+                alt="திருமண அழைப்பிதழ்"
+                loading="eager"
+                decoding="async"
+                className="w-[62%] max-w-[360px] h-auto object-contain"
+              />
+            </motion.div>
           </div>
 
           {/* Banana Left (from left) & Banana Right (from right) */}
